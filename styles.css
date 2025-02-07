@@ -1,0 +1,46 @@
+/* styles.css */
+
+/* Apply a basic reset to remove default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and font for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Style the heading */
+h1 {
+    color: #444;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style the paragraph */
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style the image */
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding and a border to the image for better visual appeal */
+img {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
